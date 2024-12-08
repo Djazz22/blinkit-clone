@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#search_bar{
+ border-radius: 10px !important;
+}
+#search_bar>input{
+    width: 40vw;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+}
+#hero-section{
+    display: flex;
+    justify-content: center;
+}
+#Categories-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vw;
+    justify-content: space-between;
+    margin: auto;
+}
+.scrollable_div{
+    width: 80vw;
+    margin: auto;
+    overflow: hidden;
+}
+.list{
+    white-space: nowrap;
+    overflow-x: scroll;
+    }
+.my-card{
+    width: 180px;
+}
+.my-card>img{
+    margin: auto;
+}
+.time_taken{
+    font-size: 9px;
+    background-color: #f8f8f8;
+    font-weight: 800;
+    width: fit-content;
+    padding: 2px, 5px;
+    border-radius: 5px;
+}
